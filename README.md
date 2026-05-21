@@ -6,19 +6,22 @@ Hello! Welcome to my project. This is a simple Python tool I created to easily d
 * Downloads the best quality video and audio from YouTube.
 * Automatically combines them into a single `.mp4` file.
 
-## 🛠️ What do you need to use this?
-Before running the code, make sure you have:
-1. **Python** installed on your computer.
-2. **yt-dlp** library installed. (Open your terminal and run: `pip install yt-dlp`)
-3. **FFmpeg** installed on your system.
-
-## 🚀 How to use it?
-1. Download the `ytdown.py` file from this repository.
-2. Open your Terminal or Command Prompt.
-3. Run the script by typing:
-   `python ytdown.py`
-4. Paste your YouTube Video link when it asks and press Enter.
-5. Wait a few seconds, and your video will be ready!
-
 ---
-*Created by [Your Name/Username]*
+
+## 🛠️ Step-by-Step Installation Guide (For Beginners)
+
+If you are new to Python or getting errors like `No such file or directory` or `ModuleNotFoundError`, follow these exact steps to set it up correctly:
+
+### Step 1: Install Python
+1. Download and install Python from the official website (make sure to check the box that says **"Add Python to PATH"** during installation).
+
+### Step 2: Open the Project in VS Code
+1. Open **Visual Studio Code**.
+2. Go to `File` > `Open Folder` and select the folder where your `ytdown.py` file is saved (e.g., *Automated VideoSocial Media Downloader*).
+> 💡 **Why?** This prevents the `Errno 2: No such file or directory` error by making sure your terminal opens in the correct location.
+
+### Step 3: Install Required Dependencies
+Open the Terminal inside VS Code (`Terminal` > `New Terminal`) and run the following command to install the required library:
+
+```bash
+pip install yt-dlp
